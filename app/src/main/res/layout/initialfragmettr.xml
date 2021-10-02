@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2B69"
+
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+
+        android:src="@drawable/pngaaa_com_2870153"
+        app:civ_border_color="#FF000000"
+
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image1"
+        android:layout_marginLeft="15dp"
+        android:text="Harshada"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/profile_image1"
+        android:src="@drawable/pngaaa_com_2870153"
+        app:civ_border_color="#FF000000"
+
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image2"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/profile_image1"
+        android:text="Harshada"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/profile_image2"
+        android:src="@drawable/pngaaa_com_2870153"
+        app:civ_border_color="#FF000000"
+
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image3"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/profile_image2"
+        android:text="Harshada"
+
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/profile_image3"
+        android:src="@drawable/pngaaa_com_2870153"
+
+        app:civ_border_color="#FF000000"
+
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image4"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/profile_image3"
+        android:text="Harshada"
+
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/image_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/profile_image4"
+        android:background="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+    <TextView
+        android:id="@+id/recenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/profile_image4"
+
+        android:text="Recent"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CustomCardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/recenttext"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@color/white">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/youraccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/youracc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Account"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/lacs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/youracc"
+                    android:layout_marginTop="5dp"
+                    android:text="₹1.2L"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lacs"
+                    android:text="Total\nexchanges"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/upcoming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/youracc"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/lacs"
+                    android:text="₹1.2L"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/upcoming"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/tv1"
+                    android:text="Total\nexchanges"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/dues"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/youracc"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/upcoming"
+                    android:text="₹1.2L"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/upcoming"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/tv2"
+                    android:text="Total\nexchanges"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/youraccount"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/includess"
+                    android:layout_width="179dp"
+                    android:layout_height="38dp"
+                    android:backgroundTint="@color/white"
+                    app:tabIndicatorColor="#03A9F4"
+                    app:tabIndicatorHeight="3.5dp"
+                    app:tabSelectedTextColor="#03A9F4"
+                    app:tabTextColor="@color/black"
+                    app:tabMode="scrollable">
+
+                    <com.google.android.material.tabs.TabItem
+                        android:id="@+id/returnedtab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="return" />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:id="@+id/receivedtab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="receive" />
+
+
+                </com.google.android.material.tabs.TabLayout>
+
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/fragmentcontainer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/includess"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>
+
+

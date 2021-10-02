@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2B69"
+
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frequentlycontacted"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FREQUENTLY CONTACTED"
+            android:textColor="@color/white"
+            android:id="@+id/freqcontact"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/freqcontact"
+
+            android:src="@drawable/pngaaa_com_2870153"
+            app:civ_border_color="#FF000000"
+
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image1"
+            android:layout_marginLeft="15dp"
+            android:text="Harshada"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:id="@+id/profile_image1text"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/profile_image1"
+            android:src="@drawable/pngaaa_com_2870153"
+            app:civ_border_color="#FF000000"
+android:layout_below="@+id/freqcontact"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image2"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/profile_image1"
+            android:text="Harshada"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/profile_image2"
+            android:src="@drawable/pngaaa_com_2870153"
+            app:civ_border_color="#FF000000"
+            android:layout_below="@+id/freqcontact"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image3"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/profile_image2"
+            android:text="Harshada"
+
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/profile_image3"
+            android:src="@drawable/pngaaa_com_2870153"
+            android:layout_below="@+id/freqcontact"
+
+            app:civ_border_color="#FF000000"
+
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image4"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/profile_image3"
+            android:text="Harshada"
+
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/freqcontact"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/profile_image4"
+            android:src="@drawable/pngaaa_com_2870153"
+
+            app:civ_border_color="#FF000000"
+
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image4"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/profile_image4"
+            android:text="Harshada"
+
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/profile_image1text"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pngaaa_com_2870153"
+
+            app:civ_border_color="#FF000000"
+
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image6"
+            android:layout_marginLeft="15dp"
+            android:text="Harshada"
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:id="@+id/profile_image6text"/>
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/profile_image1text"
+            android:layout_toRightOf="@+id/profile_image6"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pngaaa_com_2870153"
+
+            app:civ_border_color="#FF000000"
+
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image7"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/profile_image6text"
+            android:text="Harshada"
+
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
+
+
